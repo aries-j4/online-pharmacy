@@ -32,57 +32,57 @@ Online pharmacy management website made using HTML, CSS, Bootstrap, MySQL, PHP a
 
 # Some features of this website
 
-1	LOGIN FUNCTIONALITY
+1	LOGIN FUNCTIONALITY\
 •	Users are only allowed access to the admin section when they log in with correct username and password. Access remains until the user logs out of the session using the logout button.\
 •	In case user tries to access the admin section without login through the use of a page’s URL name, he/she will be directed to the login page with an error message displayed.\
-•	In case user tries to enter incorrect information in the admin login page, an error message will be displayed on the login page and they will not be allowed access.\
+•	In case user tries to enter incorrect information in the admin login page, an error message will be displayed on the login page and they will not be allowed access.
 
 
-2	ADMIN INFORMATION MAINTANENCE
+2	ADMIN INFORMATION MAINTANENCE\
 •	The admins’ passwords will be encrypted before they are stored in the database so that they can be stored securely.\
 •	While updating admin password, user will have to enter the existing password and enter the new password twice to confirm it. If incorrect current password is given or the new password entered twice do not match, user will be unable to update the password.\
 •	While updating admin name and username, the old information will be used as a placeholder in the update admin form.\
-•	If a user tries to manipulate the website URL to get to the page to update/delete an admin record that does not exist, they will be directed to the manage admin page instead.\
+•	If a user tries to manipulate the website URL to get to the page to update/delete an admin record that does not exist, they will be directed to the manage admin page instead.
 
 
-3	MEDICINE CATEGORY INFORMATION MAINTANENCE
+3	MEDICINE CATEGORY INFORMATION MAINTANENCE\
 •	While adding a new category, the uploaded image gets stored with a randomly generated name so that different images uploaded with the same name do not override each other.\
 •	 While adding a new category, if the user does not upload an image, an empty string will get stored in the image name attribute in the database table and message saying “Image Unavailable” will be displayed wherever the image is to be displayed.\
 •	While updating an existing category, if the user uploads a new image, then the previous image will be deleted to save memory space and the new image will be saved instead.\
 •	While updating an existing category, if the user does not upload a new image, the old image will remain unchanged.\
 •	While updating medicine category, the old information will be used as a placeholder in the update medicine category form.\
-•	If a user tries to manipulate the website URL to get to the page to update/delete an medicine category record that does not exist, they will be directed to the manage medicine category page instead.\
+•	If a user tries to manipulate the website URL to get to the page to update/delete an medicine category record that does not exist, they will be directed to the manage medicine category page instead.
 
 
-4	MEDICINE INFORMATION MAINTANENCE
+4	MEDICINE INFORMATION MAINTANENCE\
 •	While adding a new medicine, the uploaded image gets stored with a randomly generated name so that different images uploaded with the same name do not override each other.\
 •	 While adding a new medicine, if the user does not upload an image, an empty string will get stored in the image name attribute in the database table and message saying “Image Unavailable” will be displayed wherever the image is to be displayed.\
 •	While updating an existing medicine, if the user uploads a new image, then the previous image will be deleted to save memory space and the new image will be saved instead.\
 •	While updating an existing medicine, if the user does not upload a new image, the old image will remain unchanged.\
 •	While updating medicine, the old information will be used as a placeholder in the update medicine form.\
-•	If a user tries to manipulate the website URL to get to the page to update/delete a medicine record that does not exist, they will be directed to the manage medicine category page instead.\
+•	If a user tries to manipulate the website URL to get to the page to update/delete a medicine record that does not exist, they will be directed to the manage medicine category page instead.
 
 
-5	ORDER INFORMATION MAINTANENCE
+5	ORDER INFORMATION MAINTANENCE\
 •	Orders will get saved in the database when a customer fills the order form and clicks on confirm order button and will be displayed to the admin in the admin section.\
 •	Admin can change the status of the order in the manage order section in the admin side of the system.\
 •	If a user tries to manipulate the website URL to try to order a medicine that is not active or does not exist, they will be redirected to the home page instead.\
-•	If a user tries to manipulate the website URL to change the order status of an order record that does not exist, they will get redirected to the manage orders page instead.\
+•	If a user tries to manipulate the website URL to change the order status of an order record that does not exist, they will get redirected to the manage orders page instead.
 
 
-6	HOME PAGE DISPLAY
-•	The home page will show only those categories and medicines which are both active anf featured.\
+6	HOME PAGE DISPLAY\
+•	The home page will show only those categories and medicines which are both active anf featured.
 
 
-7	CATEGORIES PAGE DISPLAY
-•	The categories page will show only those categories which are active.\
+7	CATEGORIES PAGE DISPLAY\
+•	The categories page will show only those categories which are active.
 
 
-8	MEDICINES PAGE DISPLAY
-•	The medicines page will show only those medicines which are active.\
+8	MEDICINES PAGE DISPLAY\
+•	The medicines page will show only those medicines which are active.
 
 
-9	SEARCH BAR FUNCTIONALITY
+9	SEARCH BAR FUNCTIONALITY\
 •	The search bar results will display all those medicines whose name or description contains the keyword input into the search bar.\
-•	If there are no search results available, the same will be displayed on the webpage instead of the medicine information cards.\
+•	If there are no search results available, the same will be displayed on the webpage instead of the medicine information cards.
 
